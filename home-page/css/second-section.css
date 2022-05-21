@@ -1,0 +1,33 @@
+.secon-section-marquee-logo {
+    position: absolute;
+    margin-top: -98px;
+    margin-left: 80px;
+    z-index: 1;
+}
+
+.secon-section-marquee-logo img {
+    width: 358px;
+    transform: rotate(-3deg);
+}
+
+.text-scroll-section {
+    background-color: black;
+    border-top: 5px solid #ff1a88;
+    border-bottom: 5px solid #ffea41;
+    color: white;
+    font-family: Mabook;
+    font-size: 56px;
+    transform: rotate(3deg);
+    margin-top: -62px;
+    margin-left: -6px;
+}
+
+.text-scroll-section div {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    white-space: nowrap;
+}
+
+.text-scroll-section span {
+    padding-left: 400px;
+}

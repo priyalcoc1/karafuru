@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    overflow-x: hidden;
+}
+
+@font-face {
+    src: url("../fonts/Mabook.otf");
+    font-family: Mabook;
+}

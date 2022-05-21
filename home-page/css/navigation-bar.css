@@ -1,0 +1,104 @@
+.navigation-bar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: #191919;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    height: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-section {
+    display: flex;
+}
+
+.left-section img {
+    position: relative;
+    width: 138px;
+    cursor: pointer;
+    margin-top: 86px;
+    margin-left: 200px;
+}
+
+.right-section {
+    display: flex;
+    margin-right: 200px;
+    gap: 20px;
+}
+
+.social-media-section {
+    display: flex;
+    gap: 8px;
+}
+
+.fa-brands-outer-box {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.twitter-outer-box {
+    background: #00acee;
+    border: 2.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.twitter-outer-box:hover {
+    background-color: #0979a5;
+}
+
+.instagram-outer-box {
+    background-color: #DD2A7B;
+    border: 2.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.instagram-outer-box:hover {
+    background-color: #b80a58;
+}
+
+.discord-outer-box {
+    background-color: #5865F2;
+    border: 2.5px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.discord-outer-box:hover {
+    background-color: #1726d1;
+}
+
+.navbar-right-section-text {
+    color: white;
+    font-size: 24px;
+    font-family: Mabook;
+    cursor: pointer;
+}
+
+.navbar-right-section-text:hover a {
+    text-decoration: underline;
+}
+
+.navbar-right-section-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-shop {
+    color: grey;
+    text-decoration: none;
+    cursor: default;
+}
